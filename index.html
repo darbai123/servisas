@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="auto.css" rel="stylesheet"/>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>auto</title>
+  <script src="https://kit.fontawesome.com/066f3cdf1b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+  <div class="container">
+    <nav>
+      <img src="Images/logoooo.png" class="logo">
+      <ul id="sidemenu">
+        <li><a href="#header" onclick="closemenu()">Home</a></li>
+        <li><a href="#about" onclick="closemenu()">About</a></li>
+        <li><a href="#services" onclick="closemenu()">Services</a></li>
+        <li><a href="#portfolio" onclick="closemenu()">Price</a></li>
+        <li><a href="#contact" onclick="closemenu()">Contact</a></li>
+        <i class="fas fa-times" onclick="closemenu()"></i>
+      </ul>
+      <i class="fas fa-bars" onclick="openmenu()"></i>
+      
+    </nav>
+    <div class="header-text">
+      <h1>Quality car<br> maintenance<br> services</h1>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+<!------------about--------->
+<div id="about">
+  <div class="container">
+    <div class="row">
+      <div class="about-col-1">
+        <img src="Images/2.png">
+      </div>
+      <div class="about-col-2">
+        <h1 class="sub-title">About</h1>
+        <p>„Car Service“ yra nepriklausomų autoservisų tinklas, 
+          teikiantis aukštos kokybės
+           visų markių ir modelių transporto priemonių
+           techninio aptarnavimo ir remonto paslaugas. Garantuojame,
+            paslaugų kokybę, kuria galite pasitikėti.</p>
+        
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">
+              Mūsų paslaugos
+            </p>
+            <p class="tab-links" onclick="opentab('experience')">
+              Apie "Car Service“
+            </p>
+            <p class="tab-links" onclick="opentab('education')">Kontaktai</p>
+          </div>
+        <div class="tab-contents active-tab" id="skills">
+          <ul>
+            <li><span>Apžiūra ir patikra</span><br>Atliekama visiems, bet kokios senumo modeliams</li>
+            <li><span>Elektros ir elektronikos sistemos</span><br>Nemokamas akumuliatoriaus patikrinimas</li>
+            <li><span>Šildymo ir šaldymo (AC) sistemos</span><br>Drėgmės pašalinimas iš sistemos bei šaltnešio ir kompresoriaus alyvos papildymas</li>
+            <li><span>Stabdžių sistemos</span><br>Naudojamos tik automobilių gamintojų specifikacijas atitinkančios stabdžių sistemos atsarginės dalys</li>
+            <li><span>Variklio aptarnavimas</span><br>Trikčių nustatymas naujausia diagnostikos įranga</li>
+            <li><span>Mechanikos remontas</span><br>Kvalifikuotas personalas, gaunantis visus reikalingus techninius duomenis</li>
+
+          </ul>
+        </div>
+        <div class="tab-contents" id="experience">
+          <ul>
+            <li><span>Apie „Car Service“</span><br>Lietuvoje veikia daugiau nei 10 „Car Service“ autoservisų, todėl tikrai rasite parankiausią autoservisą</li>
+            <li><span>Kokybės valdymas</span><br>Mūsų išskirtinė kokybė gali būti įvardyta kaip bendra aukščiausios kokybės produktų, profesionalių paslaugų ir klientų lūkesčių patenkinimo visuma.</li>
+            <li><span>istorija</span><br>Nuo 1993 m. „Car Service“ nuolat plėtėsi ir tapo vienu didžiausių autoservisų tinklų Lietuvos pajūryje.</li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="education">
+          <ul>
+            
+            <li><span><a href="https://youtube.com/"><i style="font-size: 30px;" class="fa-brands fa-youtube "></i></a></span><br>sekite mūsų video</li>
+            <li><span><a href="https://facebook.com/"><i style="font-size: 30px;" class="fa-brands fa-facebook"></i></a></span><br>draugauime per FB</li>
+            <li><span><a href="#contact"><i style="font-size: 30px;"  class="fa-solid fa-envelope"></i></a></span><br>elektroniniu paštu</li>
+            <li><span><a href="#contact"><i style="font-size: 30px;"  class="fa-solid fa-mobile-screen-button"></i></a></span><br>telefonu</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!---------services-->
+<div id="services">
+  <div class="container">
+    <h1 class="sub-title">Services</h1>
+    <div class="services-list">
+      <div>
+        <i class="fa-solid fa-car"></i>
+                <h2>Automobilių apžiūra</h2>
+        <p>Jei kurioje nors jūsų automobilio mechaninių sistemų atsirado triktis, galite pasikliauti „Car Service“ specialistais. 
+          Su naujausia diagnostikos įranga ir originalios įrangos standartus atitinkančiomis atsarginėmis dalimis 
+          jie viską sutvarkys.</p>
+        <a href="kitas\automobiliu apziura\1.html">sužinokite daugiau</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-clipboard-check"></i>
+                    <h2>
+            Profesionali techninė patikra</h2>
+        <p>Jei kas 2 metus atliekama oficiali techninė apžiūra ir išmetamųjų dujų patikrinimas jau reikalingas
+           ir jūsų automobiliui, mūsų dirbtuvėse mielai atliksime visus reikalingus darbus. O esant pageidavimui,
+           iš anksto atliksime visą jūsų automobilio patikrą, kad pašalintumėme visus gedimus.</p>
+        <a href="kitas\periodine apziura\2.html">sužinokite daugiau</a>
+      </div>
+      <div>
+        <i class="fa-solid fa-list-check"></i>
+                <h2>10-ties žingsnių patikra</h2>
+        <p>Pasirūpinkite savo saugumu - leiskite mums nuodugniai nuo viršaus iki apačios už 
+          prieinamą kainą patikrinti jūsų automobilį. Pranašumas – saugesnis vairavimas ir didesnis mobilumas.</p>
+        <a  href="kitas\10 apziura\3.html">sužinokite daugiau</a>
+      </div>
+      <div>
+        <i class="fa-solid fa-magnifying-glass"></i>
+                        <h2>Profesionali patikra baigentis žiemai</h2>
+        <p>Mūsų specialistų atliekama „Car Service“ patikra prieš pavasarį yra lyg 
+          pažadinimas po ilgos žiemos, kad galėtumėte saugiai pradėti naują sezoną.</p>
+        <a href="kitas\ziema\4.html">sužinokite daugiau</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-------portfolio--------------->
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">Price</h1>
+    
+<table id="customers">
+  <tr class="darbas">
+    <th style="color: black;">Darbas</th>
+    <th style="color: black;">Laikas</th>
+    <th style="color: black;">Kaina</th>
+  </tr>
+  <tr>
+    <td>Rato keitimas, nuėmimas-uždėjimas</td>
+    <td>10min</td>
+    <td>5(Eur)</td>
+  </tr>
+  <tr>
+    <td>Rato guolio keitimas</td>
+    <td>30min</td>
+    <td>50(Eur)</td>
+  </tr>
+  <tr>
+    <td>Kuro purkštuko remontas</td>
+    <td>20min</td>
+    <td>60(Eur)</td>
+  </tr>
+  <tr>
+    <td>Tepalų keitimas</td>
+    <td>15min</td>
+    <td>10(Eur)</td>
+  </tr>
+  <tr>
+    <td>Kuro, oro, salono filtro keitimas</td>
+    <td>40min</td>
+    <td>30(Eur)</td>
+  </tr>
+  <tr>
+    <td>Automobilio plovimas</td>
+    <td>10min</td>
+    <td>12(Eur)</td>
+  </tr>
+  <tr>
+    <td>Salono cheminis valymas</td>
+    <td>60min</td>
+    <td>50(Eur)</td>
+  </tr>
+  <tr>
+    <td>Kėbulo poliravimas</td>
+    <td>2h</td>
+    <td>110(Eur)</td>
+  </tr>
+  <tr>
+    <td>Detalės perdažymas</td>
+    <td>90min</td>
+    <td>150(Eur)</td>
+  </tr>
+  <tr>
+    <td>Dėl kitų darbų kainų derinti iš anksto</td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+  </div>
+  
+</div>
+
+
+<!--------contact--------->
+
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact</h1>
+        <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+        <p><i class="fa-solid fa-square-phone"></i>+370 6 99 00000</p>
+        <div class="social-icons">
+       </div>
+      </div>
+      <div class="contact-right"></div>
+      <form name="submit-to-google-sheet">
+        <input type="text" name="Name" placeholder="Your Name" required>
+        <input type="email" name="Email" placeholder="Your Email" required>
+        <textarea name="Message"  rows="6" placeholder="Your Message" ></textarea>
+        <button type="submit" class="btn btn2">Submit</button>
+      </form>
+      <span id="msg"></span>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>Copy ©  Aurimas 2023. Atsakingas <i class="fa-solid fa-heart"></i> puslapių kūrimas</p>
+    <a href="https://darbai123.github.io/myHomePage/index.html#work" class="darbai123">www.darbai123.lt</a>
+  </div>
+</div>
+
+<script src="auto.js"></script>  
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwaSI86EubQD-ibWR6oFbZzqWezeQpEU-GxcetSjLSxWunH1WW55NYuocghAiq4vmak/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent succsessfully"
+        setTimeout(function(){
+          msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
